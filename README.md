@@ -31,7 +31,7 @@ In tab `Workloads` need set checkbox to
 In tab `Individual components` need set checkbox to
 - MSVC version 141 - C++ Build tools for VS 2017 for x64 or x86
 
-## Для работы SFML2.5.1 нужно установить компоненты Visual Studio Installer
+## Для работы SFML2.5.1 нужно установить компоненты через Visual Studio Installer
 
 Во вкладке `Рабочие нагрузки` нужно установить флаг
 - Разработка игр на языке C++
