@@ -39,6 +39,24 @@ In tab `Individual components` need set checkbox to
 Во вкладке `Отдельные компоненты` нужно установить флаг
 - MSVC версии 141 — средства сборки C++ для VS 2017 для x64 или x86
 
+## If exist errors during build need check configs
+> Project->Properties
+
+![](docs/Project_Properties.png "")
+1. Check 1 and 2 (Select all configurations)
+2. Select in drop down similar item 3
+3. Select in drop down similar item 4
+4. Apply
+
+## Если имеются ошибки во время сборки нужно проверить конфиги
+> Проект->Свойства
+
+![](docs/Проект_Свойства.png "")
+1. Проверить 1 и 2 (Выбрать все конфигурации)
+2. Выбрать в выпадающем списке аналогичное пункту 3
+3. Выбрать в выпадающем списке аналогичное пункту 4
+4. Применить
+
 
 ### Donations
 * [PayPal](https://www.paypal.com/paypalme/dmitriy3342)
