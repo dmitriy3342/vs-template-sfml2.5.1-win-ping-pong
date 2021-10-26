@@ -2,9 +2,6 @@
   <TemplateData>
     <Name>template-sfml2.5.1-win-ping-pong</Name>
     <Description>SFML2.5.1 Ping Pong with music for windows created on VS2022</Description>
-    <ProjectType>VC</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>template-sfml2.5.1-win-ping-pong</DefaultName>
@@ -13,6 +10,12 @@
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
     <PreviewImage>__PreviewImage.png</PreviewImage>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <LanguageTag>cpp</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>desktop</ProjectTypeTag>
+    <ProjectTypeTag>games</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="template-sfml2.5.1-win-ping-pong.vcxproj" File="template-sfml2.5.1-win-ping-pong.vcxproj" ReplaceParameters="true">
