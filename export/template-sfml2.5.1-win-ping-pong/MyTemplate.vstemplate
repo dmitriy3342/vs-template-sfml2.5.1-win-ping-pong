@@ -1,0 +1,176 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>template-sfml2.5.1-win-ping-pong</Name>
+    <Description>SFML2.5.1 Ping Pong with music for windows created on VS2022</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>template-sfml2.5.1-win-ping-pong</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="template-sfml2.5.1-win-ping-pong.vcxproj" File="template-sfml2.5.1-win-ping-pong.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">template-sfml2.5.1-win-ping-pong.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ball.wav">RESOURCES\ball.wav</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sansation.ttf">RESOURCES\sansation.ttf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-2.dll">EXTLIBS\BIN\X64\sfml-audio-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d-2.dll">EXTLIBS\BIN\X64\sfml-audio-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-2.dll">EXTLIBS\BIN\X64\sfml-graphics-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d-2.dll">EXTLIBS\BIN\X64\sfml-graphics-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-2.dll">EXTLIBS\BIN\X64\sfml-network-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d-2.dll">EXTLIBS\BIN\X64\sfml-network-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-2.dll">EXTLIBS\BIN\X64\sfml-system-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d-2.dll">EXTLIBS\BIN\X64\sfml-system-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-2.dll">EXTLIBS\BIN\X64\sfml-window-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d-2.dll">EXTLIBS\BIN\X64\sfml-window-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-2.dll">EXTLIBS\BIN\X86\sfml-audio-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d-2.dll">EXTLIBS\BIN\X86\sfml-audio-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-2.dll">EXTLIBS\BIN\X86\sfml-graphics-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d-2.dll">EXTLIBS\BIN\X86\sfml-graphics-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-2.dll">EXTLIBS\BIN\X86\sfml-network-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d-2.dll">EXTLIBS\BIN\X86\sfml-network-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-2.dll">EXTLIBS\BIN\X86\sfml-system-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d-2.dll">EXTLIBS\BIN\X86\sfml-system-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-2.dll">EXTLIBS\BIN\X86\sfml-window-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d-2.dll">EXTLIBS\BIN\X86\sfml-window-d-2.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X64\sfml-audio-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X64\sfml-audio-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X64\sfml-main-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X64\sfml-network-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X64\sfml-network-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X64\sfml-system-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X64\sfml-system-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X64\sfml-window-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X64\sfml-window-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X86\sfml-audio-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X86\sfml-audio-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X86\sfml-main-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X86\sfml-network-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X86\sfml-network-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X86\sfml-system-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X86\sfml-system-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X86\sfml-window-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X86\sfml-window-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Audio.hpp">EXTLIBS\INCLUDE\SFML\Audio.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Config.hpp">EXTLIBS\INCLUDE\SFML\Config.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GpuPreference.hpp">EXTLIBS\INCLUDE\SFML\GpuPreference.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Graphics.hpp">EXTLIBS\INCLUDE\SFML\Graphics.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.hpp">EXTLIBS\INCLUDE\SFML\Main.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Network.hpp">EXTLIBS\INCLUDE\SFML\Network.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpenGL.hpp">EXTLIBS\INCLUDE\SFML\OpenGL.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="System.hpp">EXTLIBS\INCLUDE\SFML\System.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Window.hpp">EXTLIBS\INCLUDE\SFML\Window.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AlResource.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\AlResource.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Export.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\Export.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InputSoundFile.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\InputSoundFile.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Listener.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\Listener.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Music.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\Music.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OutputSoundFile.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\OutputSoundFile.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sound.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\Sound.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundBuffer.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundBuffer.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundBufferRecorder.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundBufferRecorder.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundFileFactory.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundFileFactory.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundFileFactory.inl">EXTLIBS\INCLUDE\SFML\AUDIO\SoundFileFactory.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundFileReader.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundFileReader.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundFileWriter.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundFileWriter.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundRecorder.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundRecorder.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundSource.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundSource.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SoundStream.hpp">EXTLIBS\INCLUDE\SFML\AUDIO\SoundStream.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BlendMode.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\BlendMode.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CircleShape.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\CircleShape.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Color.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Color.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ConvexShape.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\ConvexShape.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Drawable.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Drawable.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Export.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Export.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Font.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Font.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Glsl.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Glsl.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Glsl.inl">EXTLIBS\INCLUDE\SFML\GRAPHICS\Glsl.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Glyph.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Glyph.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Image.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Image.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PrimitiveType.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\PrimitiveType.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Rect.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Rect.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Rect.inl">EXTLIBS\INCLUDE\SFML\GRAPHICS\Rect.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RectangleShape.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\RectangleShape.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RenderStates.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\RenderStates.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RenderTarget.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\RenderTarget.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RenderTexture.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\RenderTexture.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="RenderWindow.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\RenderWindow.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Shader.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Shader.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Shape.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Shape.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sprite.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Sprite.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Text.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Text.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Texture.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Texture.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Transform.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Transform.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Transformable.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Transformable.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vertex.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\Vertex.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="VertexArray.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\VertexArray.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="VertexBuffer.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\VertexBuffer.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="View.hpp">EXTLIBS\INCLUDE\SFML\GRAPHICS\View.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Export.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\Export.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Ftp.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\Ftp.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Http.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\Http.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="IpAddress.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\IpAddress.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Packet.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\Packet.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Socket.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\Socket.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SocketHandle.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\SocketHandle.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SocketSelector.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\SocketSelector.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TcpListener.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\TcpListener.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TcpSocket.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\TcpSocket.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="UdpSocket.hpp">EXTLIBS\INCLUDE\SFML\NETWORK\UdpSocket.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Clock.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Clock.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Err.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Err.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Export.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Export.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FileInputStream.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\FileInputStream.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InputStream.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\InputStream.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Lock.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Lock.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MemoryInputStream.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\MemoryInputStream.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mutex.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Mutex.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NativeActivity.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\NativeActivity.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="NonCopyable.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\NonCopyable.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sleep.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Sleep.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="String.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\String.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="String.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\String.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Thread.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Thread.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Thread.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\Thread.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ThreadLocal.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\ThreadLocal.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ThreadLocalPtr.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\ThreadLocalPtr.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ThreadLocalPtr.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\ThreadLocalPtr.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Time.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Time.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Utf.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Utf.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Utf.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\Utf.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector2.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Vector2.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector2.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\Vector2.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector3.hpp">EXTLIBS\INCLUDE\SFML\SYSTEM\Vector3.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector3.inl">EXTLIBS\INCLUDE\SFML\SYSTEM\Vector3.inl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Clipboard.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Clipboard.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Context.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Context.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ContextSettings.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\ContextSettings.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Cursor.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Cursor.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Event.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Event.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Export.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Export.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GlResource.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\GlResource.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Joystick.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Joystick.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Keyboard.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Keyboard.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mouse.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Mouse.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sensor.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Sensor.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Touch.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Touch.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="VideoMode.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\VideoMode.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Window.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\Window.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="WindowHandle.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\WindowHandle.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="WindowStyle.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\WindowStyle.hpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="openal32.dll">EXTLIBS\BIN\X64\openal32.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="openal32.dll">EXTLIBS\BIN\X86\openal32.dll</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
