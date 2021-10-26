@@ -43,28 +43,6 @@
       <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d-2.dll">EXTLIBS\BIN\X86\sfml-system-d-2.dll</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-2.dll">EXTLIBS\BIN\X86\sfml-window-2.dll</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d-2.dll">EXTLIBS\BIN\X86\sfml-window-d-2.dll</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X64\sfml-audio-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X64\sfml-audio-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X64\sfml-main-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X64\sfml-network-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X64\sfml-network-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X64\sfml-system-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X64\sfml-system-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X64\sfml-window-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X64\sfml-window-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X86\sfml-audio-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X86\sfml-audio-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X86\sfml-main-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X86\sfml-network-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X86\sfml-network-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X86\sfml-system-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X86\sfml-system-s-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X86\sfml-window-d.pdb</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X86\sfml-window-s-d.pdb</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="Audio.hpp">EXTLIBS\INCLUDE\SFML\Audio.hpp</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="Config.hpp">EXTLIBS\INCLUDE\SFML\Config.hpp</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="GpuPreference.hpp">EXTLIBS\INCLUDE\SFML\GpuPreference.hpp</ProjectItem>
@@ -174,6 +152,86 @@
       <ProjectItem ReplaceParameters="false" TargetFileName="WindowStyle.hpp">EXTLIBS\INCLUDE\SFML\WINDOW\WindowStyle.hpp</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="openal32.dll">EXTLIBS\BIN\X64\openal32.dll</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="openal32.dll">EXTLIBS\BIN\X86\openal32.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X64\sfml-audio-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X64\sfml-audio-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X64\sfml-graphics-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X64\sfml-main-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X64\sfml-network-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X64\sfml-network-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X64\sfml-system-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X64\sfml-system-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X64\sfml-window-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X64\sfml-window-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.pdb">EXTLIBS\LIB\X86\sfml-audio-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.pdb">EXTLIBS\LIB\X86\sfml-audio-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.pdb">EXTLIBS\LIB\X86\sfml-graphics-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-s-d.pdb">EXTLIBS\LIB\X86\sfml-main-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.pdb">EXTLIBS\LIB\X86\sfml-network-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.pdb">EXTLIBS\LIB\X86\sfml-network-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.pdb">EXTLIBS\LIB\X86\sfml-system-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.pdb">EXTLIBS\LIB\X86\sfml-system-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.pdb">EXTLIBS\LIB\X86\sfml-window-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.pdb">EXTLIBS\LIB\X86\sfml-window-s-d.pdb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="flac.lib">EXTLIBS\LIB\X64\flac.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="freetype.lib">EXTLIBS\LIB\X64\freetype.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ogg.lib">EXTLIBS\LIB\X64\ogg.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="openal32.lib">EXTLIBS\LIB\X64\openal32.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.lib">EXTLIBS\LIB\X64\sfml-audio-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.lib">EXTLIBS\LIB\X64\sfml-audio-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s.lib">EXTLIBS\LIB\X64\sfml-audio-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio.lib">EXTLIBS\LIB\X64\sfml-audio.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.lib">EXTLIBS\LIB\X64\sfml-graphics-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.lib">EXTLIBS\LIB\X64\sfml-graphics-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s.lib">EXTLIBS\LIB\X64\sfml-graphics-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics.lib">EXTLIBS\LIB\X64\sfml-graphics.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-d.lib">EXTLIBS\LIB\X64\sfml-main-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main.lib">EXTLIBS\LIB\X64\sfml-main.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.lib">EXTLIBS\LIB\X64\sfml-network-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.lib">EXTLIBS\LIB\X64\sfml-network-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s.lib">EXTLIBS\LIB\X64\sfml-network-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network.lib">EXTLIBS\LIB\X64\sfml-network.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.lib">EXTLIBS\LIB\X64\sfml-system-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.lib">EXTLIBS\LIB\X64\sfml-system-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s.lib">EXTLIBS\LIB\X64\sfml-system-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system.lib">EXTLIBS\LIB\X64\sfml-system.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.lib">EXTLIBS\LIB\X64\sfml-window-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.lib">EXTLIBS\LIB\X64\sfml-window-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s.lib">EXTLIBS\LIB\X64\sfml-window-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window.lib">EXTLIBS\LIB\X64\sfml-window.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbis.lib">EXTLIBS\LIB\X64\vorbis.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbisenc.lib">EXTLIBS\LIB\X64\vorbisenc.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbisfile.lib">EXTLIBS\LIB\X64\vorbisfile.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="flac.lib">EXTLIBS\LIB\X86\flac.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="freetype.lib">EXTLIBS\LIB\X86\freetype.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ogg.lib">EXTLIBS\LIB\X86\ogg.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="openal32.lib">EXTLIBS\LIB\X86\openal32.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-d.lib">EXTLIBS\LIB\X86\sfml-audio-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s-d.lib">EXTLIBS\LIB\X86\sfml-audio-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio-s.lib">EXTLIBS\LIB\X86\sfml-audio-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-audio.lib">EXTLIBS\LIB\X86\sfml-audio.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-d.lib">EXTLIBS\LIB\X86\sfml-graphics-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s-d.lib">EXTLIBS\LIB\X86\sfml-graphics-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics-s.lib">EXTLIBS\LIB\X86\sfml-graphics-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-graphics.lib">EXTLIBS\LIB\X86\sfml-graphics.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main-d.lib">EXTLIBS\LIB\X86\sfml-main-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-main.lib">EXTLIBS\LIB\X86\sfml-main.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-d.lib">EXTLIBS\LIB\X86\sfml-network-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s-d.lib">EXTLIBS\LIB\X86\sfml-network-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network-s.lib">EXTLIBS\LIB\X86\sfml-network-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-network.lib">EXTLIBS\LIB\X86\sfml-network.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-d.lib">EXTLIBS\LIB\X86\sfml-system-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s-d.lib">EXTLIBS\LIB\X86\sfml-system-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system-s.lib">EXTLIBS\LIB\X86\sfml-system-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-system.lib">EXTLIBS\LIB\X86\sfml-system.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-d.lib">EXTLIBS\LIB\X86\sfml-window-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s-d.lib">EXTLIBS\LIB\X86\sfml-window-s-d.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window-s.lib">EXTLIBS\LIB\X86\sfml-window-s.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sfml-window.lib">EXTLIBS\LIB\X86\sfml-window.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbis.lib">EXTLIBS\LIB\X86\vorbis.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbisenc.lib">EXTLIBS\LIB\X86\vorbisenc.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vorbisfile.lib">EXTLIBS\LIB\X86\vorbisfile.lib</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
