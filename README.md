@@ -2,9 +2,11 @@
 
 > SFML2.5.1 Ping Pong with music for Windows created on VS2022
 
-**This template for simple start in developing on SFML**
+ <img src="docs/SFML_LOGO.png" width="50" height="50">
 
-<img src="docs/SFML_LOGO.png" width="100" height="100">
+**This template for simple start in developing on SFML** 
+
+![](docs/PingPongExample.png "")
 
 ### Configurations:
 - Debug Static x64 | x86
