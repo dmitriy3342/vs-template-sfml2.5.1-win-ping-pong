@@ -3,6 +3,8 @@
 > SFML2.5.1 Ping Pong with music for Windows created on VS2022
 
  <img src="docs/SFML_LOGO.png" width="50" height="50">
+ 
+ [Download template](https://github.com/dmitriy3342/vs-template-sfml2.5.1-win-ping-pong/releases)
 
 **This template for simple start in developing on SFML** 
 
@@ -57,6 +59,7 @@ In tab `Individual components` need set checkbox to
 3. Выбрать в выпадающем списке аналогичное пункту 4
 4. Применить
 
+[Download template](https://github.com/dmitriy3342/vs-template-sfml2.5.1-win-ping-pong/releases)
 
 ### Donations
-* [PayPal](https://www.paypal.com/paypalme/dmitriy3342)
+[PayPal](https://www.paypal.com/paypalme/dmitriy3342)
