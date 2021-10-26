@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{43f9ec9b-a1f5-4635-8e35-cb951207c1e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="extlibs\bin\x64\sfml-audio-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-audio-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-graphics-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-graphics-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-network-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-network-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-system-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-system-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-window-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\sfml-window-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-audio-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-audio-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-graphics-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-graphics-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-network-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-network-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-system-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-system-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-window-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\sfml-window-d-2.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-audio-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-audio-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-graphics-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-graphics-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-main-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-network-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-network-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-system-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-system-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-window-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x64\sfml-window-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-audio-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-audio-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-graphics-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-graphics-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-main-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-network-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-network-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-system-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-system-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-window-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\lib\x86\sfml-window-s-d.pdb">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\Graphics\Glsl.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\Graphics\Rect.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\String.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\Thread.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\Utf.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\Vector2.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\include\SFML\System\Vector3.inl">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x64\openal32.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="extlibs\bin\x86\openal32.dll">
+      <Filter>Libraries</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="extlibs\lib\x64\flac.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\freetype.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\ogg.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\openal32.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-audio.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-audio-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-audio-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-audio-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-graphics.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-graphics-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-graphics-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-graphics-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-main.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-main-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-network.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-network-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-network-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-network-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-system.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-system-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-system-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-system-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-window.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-window-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-window-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\sfml-window-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\vorbis.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\vorbisenc.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x64\vorbisfile.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\flac.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\freetype.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\ogg.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\openal32.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-audio.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-audio-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-audio-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-audio-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-graphics.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-graphics-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-graphics-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-graphics-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-main.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-main-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-network.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-network-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-network-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-network-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-system.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-system-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-system-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-system-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-window.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-window-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-window-s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\sfml-window-s-d.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\vorbis.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\vorbisenc.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="extlibs\lib\x86\vorbisfile.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extlibs\include\SFML\Audio.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Config.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\GpuPreference.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Main.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\OpenGL.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\AlResource.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\Export.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\Listener.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\Music.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\Sound.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundSource.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Audio\SoundStream.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Color.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Drawable.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Export.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Font.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Glsl.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Glyph.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Image.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Rect.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Shader.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Shape.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Sprite.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Text.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Texture.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Transform.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Transformable.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\Vertex.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\VertexBuffer.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Graphics\View.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\Export.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\Ftp.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\Http.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\IpAddress.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\Packet.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\Socket.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\SocketHandle.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\SocketSelector.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\TcpListener.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\TcpSocket.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Network\UdpSocket.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Clock.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Err.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Export.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\FileInputStream.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\InputStream.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Lock.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Mutex.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\NativeActivity.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\NonCopyable.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Sleep.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\String.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Thread.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\ThreadLocal.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Time.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Utf.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Vector2.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\System\Vector3.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Clipboard.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Context.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\ContextSettings.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Cursor.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Event.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Export.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\GlResource.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Joystick.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Keyboard.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Mouse.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Sensor.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Touch.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\VideoMode.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\Window.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\WindowHandle.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="extlibs\include\SFML\Window\WindowStyle.hpp">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\ball.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\sansation.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
